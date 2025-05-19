@@ -1,9 +1,9 @@
 :root {
     --nice-padding: 6rem;
     --roundness: 0.75rem;
-    --accent1: #02db02;
-    --accent2: #05b305;
-    --accent2_transp: #05b30555;
+    --accent1: #92c4e7;
+    --accent2: #72b3e2;
+    --accent2_transp: #5eabe25d;
     --background1: #212529;
     --background2: #16191b;
 
@@ -84,7 +84,8 @@ body {
 }
 
 .desktop_navbar_logo_img {
-    width: 5rem;
+    width: 3rem;
+    height: 3rem;
     padding-left: 2rem;
     padding-right: 1rem;
 }
@@ -217,6 +218,7 @@ body {
     margin-right: auto;
     transition: all .5s;
     max-width: 40rem;
+    max-height: 13rem;
 }
 .main1_logo:hover {
     transform: scale(1.05)
